@@ -3,7 +3,6 @@ import replit
 
 
 def ex2():
-    import replit
     replit.clear()
     print(" __      __        _       _     _           ")
     print(" \ \    / /       (_)     | |   | |          ")
@@ -13,7 +12,7 @@ def ex2():
     print("     \/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/")
     print("Maintenant, nous allons voir les variable.\n")
     print(
-        "Une variable sert à contenir quelque chose (des mots, des chiffres ...)"
+        "Une variable sert à contenir quelque chose (des mots, des chiffres ...). on utilise la structure : Nom = Valeur\n/!\ attention, cette structure est a retenir /!\ "
     )
     print("Ex:")
     print(Fore.GREEN + "chats = 2")
